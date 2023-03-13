@@ -1,0 +1,181 @@
+body {
+    background: black;
+    color: white;
+}
+
+.hl_green {
+    background: greenyellow;
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+    width: fit-content;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, greenyellow 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_aqua {
+    background: rgb(104, 214, 122);
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+    width: fit-content;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(16, 255, 96) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_orange {
+    background: rgb(104, 214, 122);
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+    width: fit-content;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(255, 151, 16) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_purple {
+    background: rgb(104, 214, 122);
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+    width: fit-content;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(104, 15, 219) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_brown {
+    background: rgb(104, 214, 122);
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+    width: fit-content;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(117, 57, 0) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_dark_blue {
+    background: rgb(104, 214, 122);
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+    width: fit-content;
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(7, 65, 255) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_red {
+    background: rgb(255, 93, 93);
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(231, 71, 71) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_yellow {
+    background: rgb(255, 255, 56);
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(255, 255, 66) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_blue {
+    background: rgb(0, 255, 255);
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(0, 255, 255) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;
+}
+
+.hl_pink {
+    background: rgb(255, 135, 229);
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    padding: 0.25em;
+
+    transition: width 0.5s ease-in-out;
+
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(255, 127, 238) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+    animation: fill 1s ease-in-out forwards 1;   
+}
+
+@keyframes fill {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+span {
+    padding: 0.025em;
+}
+
+
+#output {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.15em;
+    border: rgb(255, 255, 255) 2px solid;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    overflow: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');

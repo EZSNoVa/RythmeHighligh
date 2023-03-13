@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    align-content: space-between;
+    flex-direction: column;
+
+    padding: 5em;
+    margin: 2em;
+}   
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+
+.title::first-letter{
+    font-size: 1.2em;
+    color: black;
+}
+
+.contenedor, .contenedor_c {
+    padding: 0.25em;
+    margin: 0.10em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+
+    width: auto;
+}
+
+.contenedor_c {
+    flex-direction: column;
+}
+
+#option_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: max-content;
+    border: black solid 2px;
+    border-radius: 10px;
+
+    margin: 0.15em;
+}
+
+.text, h3 {
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600; 
+    margin: 0.25em;
+}
+
+.option {
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600; 
+    margin: 0.5em;
+
+    background: cornflowerblue;
+    border-radius: 0.76em;
+
+    padding: 0.5em;
+    width: max-content;
+    height: 1em;
+}
+
+.button {
+    border: cornflowerblue 2px solid;
+    background: cornflowerblue;
+    border-radius: 0.5em;
+    
+    color: cornsilk; 
+    font-size: 1 rem;
+
+    filter: drop-shadow(0 0 0.15rem rgb(148, 148, 148));
+
+    padding: 0.5em;
+    margin: 0.5em;
+    width: fit-content;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    border: cornflowerblue 2px solid;
+    color: cornflowerblue;
+    background: white;
+}
+
+.button:active {
+    background: rgb(210, 28, 255);
+    border: rgb(212, 40, 255) 2px solid;
+    color: rgb(255, 255, 255);
+}
+
+
+input {
+    border: cornflowerblue 2px solid;
+    border-radius: 0.5em;
+
+    padding: 0.5em;
+    margin: 0.5em;
+    width: fit-content;
+
+    filter: drop-shadow(0 0 0.20rem rgb(126, 126, 126));
+
+}
+
+.vote_box {
+    background: cornflowerblue;
+    border-radius: 1.20em;
+    padding: 0.5em;
+    height: fit-content;
+    width: fit-content;
+    filter: drop-shadow(0 0 0.15rem rgb(148, 148, 148));
+
+}
+
+
+.check-box {
+    background: cornflowerblue;
+    height: 1.25em;
+    width: 1.25em;
+    border-radius: 3em;
+    padding: 0.75em;
+}
+
+
+.help-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0.15em;
+    margin: 1em;
+    border: cornflowerblue 2px solid;
+    color:  black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.76em;
+    height: 1em;
+    width: 1em;
+    border-radius:5em;
+    user-select: none;
+
+    transition: color 0.5s, border 0.5s;
+}
+
+.help-btn:hover {
+    background: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+.help-btn:active {
+    background: rgb(210, 28, 255);
+    border: rgb(212, 40, 255) 2px solid;
+    color: rgb(255, 255, 255);
+}
+
+
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
