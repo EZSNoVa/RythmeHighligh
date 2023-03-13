@@ -110,7 +110,7 @@ body {
 .hl_yellow {
     background: rgb(255, 255, 56);
     width: fit-content;
-    color: rgb(255, 255, 255);
+    color: black;
     padding: 0.25em;
 
     transition: width 0.5s ease-in-out;
